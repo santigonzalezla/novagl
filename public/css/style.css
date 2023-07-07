@@ -1,0 +1,13 @@
+@font-face
+{
+    font-family: 'Organeto Bold';
+    src: url('../fonts/organetto-bold.ttf') format('truetype');
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Satoshi', sans-serif;
+}

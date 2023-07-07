@@ -1,0 +1,153 @@
+.contact
+{
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.contact-left
+{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.contact-left-icon
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-left-icon:hover
+{
+    transform: scale(1.1);
+    color: #FF4200;
+}
+
+.contact-left-icon:hover svg
+{
+    background: #FFF;
+    color: #2B3138;
+}
+
+.contact-left-icon svg
+{
+    padding: 2px;
+    background: linear-gradient(90deg, #8200FF 0%, #FF4200 100%);
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.contact-right
+{
+    flex-basis: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contact-right h2
+{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.contact-right-form
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.form-input
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-right-form-info
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+.contact-right-form-details
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+.contact-right-form-info div,
+.contact-right-form-details div
+{
+    width: 100%;
+}
+
+.contact-right-form-info input,
+.contact-right-form-details input,
+.contact-right-form textarea,
+.contact-right-form select
+{
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #202329;
+    color: #FFFFFF;
+    resize: none;
+}
+
+.contact-right-form textarea
+{
+    height: 100px;
+}
+
+.number-form::-webkit-inner-spin-button,
+.number-form::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+}
+
+.contact-right-form-info input::placeholder,
+.contact-right-form-details input::placeholder,
+.contact-right-form textarea::placeholder
+{
+    color: #999;
+}
+
+.contact-right-form button
+{
+    margin: 10px 0;
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #FF4200;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-right-form button:hover
+{
+    background: #FFF;
+    color: #FF4200;
+}

@@ -1,0 +1,57 @@
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo h4
+{
+    font-family: 'Organeto Bold', sans-serif;
+    color: #FFF;
+    font-size: 30px;
+    letter-spacing: 8px;
+    background: linear-gradient(to right, #8200ff, #e400c0, #ff007e, #ff0044, #ff4200);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.info
+{
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+}
+
+.info ul
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    color: #FFF;
+}
+
+.info ul li
+{
+    cursor: pointer;
+}
+
+.info ul li a
+{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.info ul li a:hover
+{
+    color: #FD4302;
+}

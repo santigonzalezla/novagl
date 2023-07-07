@@ -1,0 +1,149 @@
+.hero
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 70px 0;
+    gap: 60px;
+}
+
+.hero-left
+{
+    position: relative;
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 75px 0;
+    color: #FFFFFF;
+}
+
+.icon
+{
+    position: absolute;
+}
+
+.line
+{
+    top: 10%;
+}
+
+.x
+{
+    top: 8%;
+    right: 10px;
+}
+
+.circle
+{
+    right: 30px;
+    top: 50%;
+}
+
+.hero-left h1
+{
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 95%;
+}
+
+.hero-left p
+{
+    font-size: 14px;
+    font-weight: 300;
+    width: 80%;
+}
+
+.hero-left button
+{
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #202329;
+    width: 60%;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-left button:hover
+{
+    background: linear-gradient(90deg, #8200FF 0%, #FF4200 100%);
+    color: #FFF;
+}
+
+.hero-right
+{
+    position: relative;
+    flex-basis: 60%;
+    border-radius: 5px;
+    background-color: #202329;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+    background-image: url('https://i.imgur.com/qdunMII.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-right-trasparency
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32, 35, 41, 0.8);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 50px 30px 50px;
+    gap: 100px;
+}
+
+.hero-right-upper
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    margin-left: auto;
+    padding: 8px 20px;
+    width: 25%;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #8200FF 0%, #FF4200 100%);
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hero-right-bottom
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.hero-right-title-1
+{
+    margin: 0;
+    font-size: 80px;
+    font-weight: 900;
+    color: #FFF;
+}
+
+.hero-right-title-2
+{
+    margin: 0;
+    font-size: 80px;
+    font-weight: 900;
+    background-image: linear-gradient(to right, #8200ff, #e400c0, #FF4200, #FF4200, #FF4200);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

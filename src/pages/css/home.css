@@ -1,0 +1,8 @@
+.home
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #2B3138;
+    padding: 0 120px;
+}

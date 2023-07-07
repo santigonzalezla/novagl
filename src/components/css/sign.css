@@ -1,0 +1,16 @@
+.sign
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 120px;
+    color: #222;
+    background: #999;
+    font-size: 14px;
+}
+
+.sign-right
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

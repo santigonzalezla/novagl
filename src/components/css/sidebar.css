@@ -1,0 +1,27 @@
+.sidebar
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-basis: 5%;
+    color: #FFF;
+    padding: 100px 0;
+    font-size: 5px;
+}
+
+.sidebar-hero,
+.sidebar-about,
+.sidebar-work,
+.sidebar-services,
+.sidebar-contact
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: #FFFFFF 1px solid;
+    border-radius: 50%;
+}

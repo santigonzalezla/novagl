@@ -13,6 +13,11 @@
     gap: 10px;
 }
 
+.logo a
+{
+    text-decoration: none;
+}
+
 .logo h4
 {
     font-family: 'Organeto Bold', sans-serif;

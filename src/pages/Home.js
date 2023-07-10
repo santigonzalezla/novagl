@@ -1,14 +1,14 @@
 import './css/home.css';
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import About from "../components/About";
-import Work from "../components/Work";
-import Services from "../components/Services";
-import Contact from "../components/Contact";
-import AboutBanner from "../components/AboutBanner";
-import ServiceBanner from "../components/ServiceBanner";
-import Footer from "../components/Footer";
-import Sign from "../components/Sign";
+import Navbar from "../components/home/Navbar";
+import Hero from "../components/home/Hero";
+import About from "../components/home/About";
+import Work from "../components/home/Work";
+import Services from "../components/home/Services";
+import Contact from "../components/home/Contact";
+import AboutBanner from "../components/home/AboutBanner";
+import ServiceBanner from "../components/home/ServiceBanner";
+import Footer from "../components/home/Footer";
+import Sign from "../components/home/Sign";
 
 const Home = () =>
 {

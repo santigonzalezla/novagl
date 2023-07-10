@@ -1,8 +1,9 @@
-import Navbar from "../components/Navbar";
-import Services from "../components/Services";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
-import Sign from "../components/Sign";
+import Navbar from "../components/home/Navbar";
+import Services from "../components/home/Services";
+import Contact from "../components/home/Contact";
+import Footer from "../components/home/Footer";
+import Sign from "../components/home/Sign";
+import HeroService from "../components/service/HeroService";
 
 const ServicePage = () =>
 {
@@ -10,6 +11,7 @@ const ServicePage = () =>
         <div>
             <div className="home">
                 <Navbar />
+                <HeroService />
                 <Services id="services" />
                 <Contact id="contact" />
             </div>

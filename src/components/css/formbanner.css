@@ -1,0 +1,18 @@
+.form-banner
+{
+    bottom: 0;
+    background-color: rgba(255, 66, 0, 0.20);
+    color: #FFF;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #FF4200;
+}
+
+.form-banner h3
+{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+}
